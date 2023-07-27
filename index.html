@@ -33,41 +33,41 @@
 </head>
 <body class=".fots">
   <header class="max-w-screen-xl mx-5 md:mx-10 lg:mx-10 xl:mx-auto">
-    <nav class="mb-10">
-        <div class="navbar lg:bg-[#F85559] bg-white px-3 py-4 mt-10 rounded-full ">
-            <div class="navbar-start md:order-none order-last">
-              <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost btn-circle lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                </label>
-                <ul tabindex="0" class="menu text-white text-xl menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-red-300 rounded-box w-40">
+      <nav class="mb-10">
+          <div class="navbar flex justify-around lg:bg-[#F85559] py-5 px-5 lg:px-10 mt-10 rounded-full ">
+              <div class="flex-1 md:order-none order-last ">
+                <div class="dropdown">
+                  <label tabindex="0" class="btn btn-ghost md:ml-0 ml-32 btn-circle lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                  </label>
+                  <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-white text-base rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu text-white text-base menu-horizontal px-1">
                     <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Shop</a></li>
-                    <li><a>All Fruits</a></li>
-                </ul>
+                      <li><a>About</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                  </ul>
+                </div>
               </div>
-              <div class="navbar-center hidden lg:flex">
-                <ul class="menu text-white text-xl menu-horizontal px-1">
-                  <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Shop</a></li>
-                    <li><a>All Fruits</a></li>
-                </ul>
+              <div class="flex-1 md:order-none order-first">
+                  <img class="w-8 h-8" src="images/logo.png" alt="">
+                <a class="btn btn-ghost text-black lg:text-white normal-case text-2xl md:text-4xl">Fruit Burst</a>
               </div>
-            </div>
-            <div class="navbar-center space-x-1 md:order-none order-last">
-              <img class="lg:w-9 lg:h-9 w-8 h-8" src="images/logo.png" alt="">
-              <a class=" normal-case lg:text-white text-black font-bold lg:text-3xl text-2xl">Fruit Burst</a>
-            </div>
-            <div class="navbar-end hidden md:block">
-              <div class="text-end  relative">
-                <input class="text-base py-3 pl-8 pr-3 rounded-full lg:w-4/5 px-3" type="search" placeholder="Search here" name="" id="">
-                <button type="submit"><i class="fa-solid py-3 pr-3 text-xl absolute top-0 right-0 fa-magnifying-glass"></i></button>
+              <div class="flex-1 hidden md:block">
+                <div class="text-end  relative">
+                  <input class="text-base py-3 pl-8 pr-3 rounded-full lg:w-4/5 px-3" type="search" placeholder="Search here" name="" id="">
+                  <button type="submit"><i class="fa-solid py-3 pr-3 text-xl absolute top-0 right-0 fa-magnifying-glass"></i></button>
+                </div>
               </div>
             </div>
-          </div>
-    </nav>
+            </nav>
   <!---banner section--->
   <section class="">
   <div class="carousel w-full lg:h-[750px] h-[400px]">
@@ -120,7 +120,7 @@
         <a href="#slide1" class="btn btn-circle">❮</a> 
         <a href="#slide3" class="btn btn-circle">❯</a>
       </div>
-      <div class="lg:flex hidden absolute rounded-xl bg-white mx-auto h-[250px] w-[800px] justify-center items-center left-0 right-0 -bottom-40">
+      <div class="lg:flex hidden absolute rounded-xl bg-white mx-auto h-[250px] w-[800px] justify-center items-center shadow-xl left-0 right-0 -bottom-40">
         <div class="flex-1 space-y-2">
           <div class="flex justify-center"><img src="images/fruit6.png" alt=""></div>
           <p class="text-center text-[#707070]">Apple</p>
@@ -257,7 +257,7 @@
         <figure><img class="p-5" src="images/fruit6.png" alt="Shoes" /></figure>
         <div class="card-body">
           <h2 class="text-2xl font-bold text-center">12.90$ - 18.85$</h2>
-          <div class="divider my-0 w-48 lg:m-0 m-auto"></div>
+          <div class="divider my-0 w-48 mx-auto"></div>
           <p class="text-base text-[#707070] text-center">Apples</p>
           <div class="rating rating-md flex justify-center rating-half">
             <input type="radio" name="rating-11" class="rating-hidden" />
@@ -279,9 +279,9 @@
               <dialog id="my_modal_1" class="modal">
               <form method="dialog" class="modal-box">
                 <div class="card">
-                  <figure><img class="w-[300px] h-[300px] py-5" src="images/fruit8.png" alt="Shoes" /></figure>
+                  <figure><img class="w-[250px] h-[250px] p-5" src="images/fruit8.png" alt="Shoes" /></figure>
                   <div class="card-body">
-                    <h2 class="text-2xl py-2 font-bold text-center">Red Dragon</h2>
+                    <h2 class="text-2xl font-bold text-center">Red Dragon</h2>
                     <p class="text-base py-2 text-[#707070] text-center">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     <div class="rating py-2 rating-md flex justify-center rating-half">
                       <input type="radio" name="rating-10" class="rating-hidden" />
